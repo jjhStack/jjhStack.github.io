@@ -164,7 +164,7 @@ a { color: inherit; }
 .ledger__table { border-top: 2px solid var(--ink); }
 .ledger__row {
   display: grid;
-  grid-template-columns: 76px minmax(0, 2.2fr) minmax(0, 1.2fr) minmax(0, 1.4fr) 4.5em;
+  grid-template-columns: 76px minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1.9fr) 4.5em;
   gap: 18px; align-items: center;
   padding: 12px 12px; border-bottom: 1px solid var(--rule);
   cursor: pointer; position: relative;
@@ -290,7 +290,7 @@ a { color: inherit; }
 .timeline p { color: var(--ink-2); margin-top: 6px; max-width: 42em; }
 @media (max-width: 640px) { .timeline li { grid-template-columns: 1fr; gap: 4px; } }
 
-.experience h2.skills__title { margin-top: var(--section); }
+.experience h2.skills__title, .experience h2.edu__title { margin-top: clamp(56px, 6vw, 80px); }
 .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 32px 40px; }
 .skills h3 { font-size: var(--t-base); font-weight: 700; margin-bottom: 12px; }
 .certs { list-style: none; margin-block: 48px 0; padding: 0; border-top: 1px solid var(--rule); }
