@@ -276,7 +276,7 @@ const KO = {
   "rec.stack": "주요 기술", "rec.stack.v": "Java, Spring Boot, SQL (MySQL, MariaDB, Oracle)",
   "rec.domain": "업무 분야", "rec.domain.v": "기업 시스템: 총무, 인사, 보안 권한",
   "rec.permit": "체류 자격", "rec.permit.v": "워킹홀리데이 비자 (2027년 5월까지), EU 블루카드 신청 가능",
-  "rec.lang": "언어", "rec.lang.v": "한국어 (모국어), 영어 (C1), 독일어 (A1, 학습 중)",
+  "rec.lang": "언어", "rec.lang.v": "한국어 (모국어), 영어 (능통), 독일어 (A1, 학습 중)",
   "work.title": "웹사이트 작업",
   "work.intro": "파이브스톤즈에서 3년간 만든 사이트와 2022년부터 프리랜서로 작업한 사이트입니다. 행을 클릭하면 사이트 화면을 볼 수 있습니다.",
   "f.all": "전체", "f.freelance": "프리랜서", "f.fivestones": "파이브스톤즈",
